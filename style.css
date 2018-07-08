@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    border: 0px;
+    background-color: rgb(42, 38, 255);
+    text-align: center;
+}
+
+h1{
+    border: 0px;
+    font-size: 70px;
+    margin: 0px;
+    padding: 5px 0px 0px;
+}
+
+aside{
+    left: 0px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    background-color: rgb(143, 143, 143);
+    padding: 15px;
+}
+
+section{
+    position: absolute;
+    left: 330px;
+    background-color: rgb(212, 212, 212);
+    width: auto;
+    height: 345px;
+    padding: 20px;
+}
+
+p{
+    font-size: 27px;
+    border: 0px;
+}
+
+h2{
+    font-size: 30px;
+    position: relative;
+    margin: 0px;
+}
+
+.imagemprincipal{
+    height: 350px;
+    width: 300px;
+}
