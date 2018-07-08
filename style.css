@@ -1,6 +1,8 @@
 body{
     margin: 0px;
     font-family: sans-serif;
+    height: auto;
+    width: auto;
 }
 
 header{
@@ -14,24 +16,27 @@ h1{
     font-size: 70px;
     margin: 0px;
     padding: 5px 0px 0px;
+    letter-spacing: 5px;
 }
 
-aside{
+.asidedilma{
     left: 0px;
     height: auto;
     width: auto;
     position: absolute;
     background-color: rgb(143, 143, 143);
-    padding: 15px;
+    padding: 15.5px;
+    border-bottom: solid 2px rgb(4, 4, 223)
 }
 
-section{
+.dilma{
     position: absolute;
     left: 330px;
     background-color: rgb(212, 212, 212);
     width: auto;
     height: 345px;
     padding: 20px;
+    border-bottom: solid 2px rgb(4, 4, 223);
 }
 
 p{
@@ -45,7 +50,48 @@ h2{
     margin: 0px;
 }
 
-.imagemprincipal{
+.imagemdilma{
     height: 350px;
     width: 300px;
+}
+
+.asidecat{
+    right: 0px;
+    position: absolute;
+    top: 472px;
+    background-color: rgb(143, 143, 143);
+    padding: 16px;
+}
+
+.cat{
+    position: absolute;
+    right: 330px;
+    background-color: rgb(212, 212, 212);
+    width: auto;
+    height: 345px;
+    padding: 20px;
+    top: 472px;
+}
+
+footer{
+    position: absolute;
+    top: 855px;
+    
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom{
+    border-radius: 25%;
+    border: solid gray 2px;
+    margin: 0px 20px;
+}
+
+a{
+    color: rgb(85, 85, 85);
 }
