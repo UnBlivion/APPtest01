@@ -9,6 +9,9 @@ header{
     border: 0px;
     background-color: rgb(42, 38, 255);
     text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 h1{
@@ -26,7 +29,8 @@ h1{
     position: absolute;
     background-color: rgb(143, 143, 143);
     padding: 15.5px;
-    border-bottom: solid 2px rgb(4, 4, 223)
+    border-bottom: solid 2px rgb(4, 4, 223);
+    top: 85px;
 }
 
 .dilma{
@@ -37,6 +41,7 @@ h1{
     height: 345px;
     padding: 20px;
     border-bottom: solid 2px rgb(4, 4, 223);
+    top: 85px;
 }
 
 p{
